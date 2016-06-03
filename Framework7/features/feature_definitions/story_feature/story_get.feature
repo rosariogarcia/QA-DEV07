@@ -1,7 +1,7 @@
 @stories
 Feature: Story
 
-  @smoke_testing_story
+  @smoke_test
   Scenario Outline: Get Story by ID
     Given I have set connection to pivotal tracker API service
     And I have <project_id> of pivotal tracker project to Story endpoint
@@ -11,4 +11,4 @@ Feature: Story
 
     Examples:
       | project_id  |story_id    |
-      | 1595957     |120727153   |
+      | 1595957     |120813005   |

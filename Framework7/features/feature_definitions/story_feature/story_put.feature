@@ -11,4 +11,4 @@ Feature: Story
 
     Examples:
       | project_id  |story_id    |
-      | 1595957     |120726863   |
+      | 1595957     |120813005   |

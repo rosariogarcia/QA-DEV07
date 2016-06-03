@@ -1,7 +1,7 @@
 @stories
   Feature: Stories
 
-    @smoke_testing_stories
+    @smoke
     Scenario Outline: New Story by name
       Given I have set connection to pivotal tracker API service
         And I have <project_id> of pivotal tracker project to Stories endpoint
@@ -12,4 +12,4 @@
 
       Examples:
         | project_id |name_story  |
-        | 1595957    |story_test_new  |
+        | 1595957    |123545      |
